@@ -57,7 +57,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  De pinkpop website is niet toegankelijk voor sreenreaders - Home pagina:
+  - Op de home pagina, zijn er koppen van h3 en h5
+  - Er zijn veel links die beginnen met een / en verder niks waardoor je niet weet wat je kan verwachten waar die link over gaat
+  - Ook kan je niet via links naar het menu, deze kan je gewoon niet betreden met de screenreader
+  - Orientatiepunten zijn ook niet duidelijk, er staat alleen banner of artikel. Dit is natuurlijk niet waar het over gaat
 
+  Dit is pinkpop:
+  - Er zijn heel veel koppen waardoor je niet makkelijk door de pagina kan navigeren. Dit komt ook door de Spotify list, deze worden ook gezien als koppen
+  - Ook zijn de links niet duidelijk net als op de homepagina
+  - Zelfde geld voor de orientatie punten
+
+  Kortom de website is niet toegankelijk genoeg en kan zeker aangepast worden.
 </details>
 
 
