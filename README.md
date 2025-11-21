@@ -72,7 +72,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdown-algemeen.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -102,11 +102,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Eva            | Loïs               | Roos                                         | Emilie           |
-  | ---            | ---                | ---                                          | ---              |
-  | dit bespreken  | en dit             | Hoe kan ik in mijn menu nog een menu maken?  | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | Wat valt er onder de header?                 | dit wil ik zeker |
-  | ...            | ...                | ...                                          | ...              |
+  | Eva            | Loïs               | Roos                                         | Emilie                                                                                    |
+  | ---            | ---                | ---                                          | ---                                                                                       |
+  | dit bespreken  | en dit             | Hoe kan ik in mijn menu nog een menu maken?  | Tot hoever moet de website in detail uitgewerkt worden?                                   |
+  | en dat ook nog | dit als er tijd is | Wat valt er onder de header?                 | Waarom speelt de video niet af en hoe kan ik zorgen dat ie niet automatisch gaat afspelen |
+  | ...            | ...                | Hoe vind ik de iconen?                       | Hoe zet ik de font in mijn css?                                                           |
 
 
   ### Verslag van meeting

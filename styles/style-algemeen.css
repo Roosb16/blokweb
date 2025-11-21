@@ -1,0 +1,117 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text: #262424;
+	--color-background: #fff;
+	--color-menu: #000;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+
+header{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/****************/
+/* Hamburger menu */
+/****************/
+nav:nth-of-type(2) button {
+	appearance: none;
+	
+	width: 2.5em;
+	aspect-ratio: 1/1;
+
+	border: none;
+	padding: 0;
+	
+	display: grid;
+	justify-items: center;
+	align-items: center;
+
+	position:relative;
+  	z-index: 1;
+}
+
+button span {
+	display: block;
+
+	width: 1.5em;
+	height: .1em;
+	background-color: black;
+
+	grid-row-start: 1;
+	grid-column-start: 1;
+
+	transition: .25s;
+}
+
+button span:nth-of-type(1) {
+	translate: 0 -.3em;
+}
+
+button span:nth-of-type(3) {
+	translate: 0 .3em;
+}
+
+button.is-open span:nth-of-type(1) {
+	translate: 0 0;
+	rotate: 45deg;
+}
+  
+button.is-open span:nth-of-type(2) {
+	scale: 0 1;
+}
+  
+button.is-open span:nth-of-type(3) {
+	translate: 0 0;
+	rotate: -45deg;
+}
+
+nav:nth-of-type(2){
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+nav:nth-of-type(2) ul{
+	position: fixed;
+	inset: 0;
+
+	translate: -100% 0;
+
+	transition: 1s;
+
+	background-color: var(--color-menu);
+}
+
+nav.is-open ul{
+	translate: 0 0;
+}
