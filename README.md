@@ -36,15 +36,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Je opdracht:
-  https://www.pinkpop.nl
+  https://www.vans.com/nl-nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  home pagina  
-  <img src="readme-images/home-pagina.png" width="375px" alt="home pagina van de pinkpop website">
+  Home pagina Vans
+  <img src="readme-images/home.png" width="375px" alt="Home pagina van de Vans website">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  dit is Pinkpop  
-  <img src="readme-images/dit-is-pinkpop.png" width="375px" alt="dit is pinkpop op de pinkpop website">
+  Overzicht Vans schoenen
+  <img src="readme-images/overzicht.png" width="375px" alt="Overzicht pagina van de Vans website">
+
+  #### Screenshot(s) van de derde pagina (small screen):
+  Detail schoen Vans
+  <img src="readme-images/detail.png" width="375px" alt="Detail pagina van de schoenen van de Vans website">
  
 </details>
 
@@ -56,19 +60,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
-  De pinkpop website is niet toegankelijk voor sreenreaders - Home pagina:
-  - Op de home pagina, zijn er koppen van h3 en h5
-  - Er zijn veel links die beginnen met een / en verder niks waardoor je niet weet wat je kan verwachten waar die link over gaat
-  - Ook kan je niet via links naar het menu, deze kan je gewoon niet betreden met de screenreader
-  - Orientatiepunten zijn ook niet duidelijk, er staat alleen banner of artikel. Dit is natuurlijk niet waar het over gaat
+  Doordat ik veranderd ben van website moet ik dit nog een keertje doen. Voeg het zo snel mogelijk toe!
 
-  Dit is pinkpop:
-  - Er zijn heel veel koppen waardoor je niet makkelijk door de pagina kan navigeren. Dit komt ook door de Spotify list, deze worden ook gezien als koppen
-  - Ook zijn de links niet duidelijk net als op de homepagina
-  - Zelfde geld voor de orientatie punten
-
-  Kortom de website is niet toegankelijk genoeg en kan zeker aangepast worden.
 </details>
 
 
@@ -99,17 +92,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat er minder goed ging:
+  Mijn website die ik eerst had gekozen heeft al zijn pagina's verwijderd en een nieuwe home pagina gemaakt. Hierdoor kan ik niet verder met die website en heb ik 20 november een nieuwe website moeten kiezen. Hierdoor loop ik erg achter en doe ik mijn best om zo snel mogelijk weer bij te lopen.
+
+  Wat wel goed gaat:
+  Ik begrijp de code en vind het ook heel leuk, ik heb snel door wanneer ik wat kan gebruiken en hoe de secties zijn opgebroken. Ondanks dat ik opnieuw moet beginnen heb ik wel het idee dat het goed gaat komen.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Eva            | Loïs               | Roos                                         | Emilie           |
+  | ---            | ---                | ---                                          | ---              |
+  | dit bespreken  | en dit             | Hoe kan ik in mijn menu nog een menu maken?  | en dan ik dat    |
+  | en dat ook nog | dit als er tijd is | Wat valt er onder de header?                 | dit wil ik zeker |
+  | ...            | ...                | ...                                          | ...              |
 
 
   ### Verslag van meeting
