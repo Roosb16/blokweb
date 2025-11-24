@@ -1,3 +1,25 @@
+/*********/
+/* Fonts */
+/*********/
+@font-face{
+	font-family: fann;
+	src: url(../fonts/FannDorenGrotesque-Regular.woff2);
+	font-weight: 400;
+}
+
+@font-face{
+	font-family: fann;
+	src: url(../fonts/FannDorenGrotesque-Medium.woff2);
+	font-weight: 500;
+}
+
+@font-face{
+	font-family: fann;
+	src: url(../fonts/FannDorenCondensed-Bold.woff2);
+	font-weight: 700;
+}
+
+
 /**************/
 /* CSS REMEDY */
 /**************/
@@ -6,9 +28,6 @@
 *::before {
 	box-sizing: border-box;
 }
-
-
-
 
 
 
@@ -32,17 +51,74 @@
 
 /* jouw code */
 
-header{
-	display: flex;
-	flex-direction: row-reverse;
-	justify-content: space-between;
-	align-items: center;
+body{
+	font-family: "fann";
 }
 
-/****************/
+
+li {
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+/********/
+/* Menu */
+/********/
+header{
+	display: flex;
+	/* justify-content: space-between; */
+	gap:.5em;
+	align-items: center;
+
+	position: sticky;
+	top: 0;
+
+	z-index: 10;
+}
+
+/* LOGO */
+
+header > a {
+	margin-right:auto;
+}
+
+
+/******************/
 /* Hamburger menu */
-/****************/
-nav:nth-of-type(2) button {
+/******************/
+header nav{
+	position: fixed;
+	inset: 0;
+
+	background-color: var(--color-menu);
+
+	translate: 0 100%;
+	
+	transition: 1s;
+
+	&.is-open {
+		translate: 0 0;
+	}
+}
+
+header nav img{
+	width: 3em;
+}
+
+header button:nth-of-type(4) {
 	appearance: none;
 	
 	width: 2.5em;
@@ -59,7 +135,13 @@ nav:nth-of-type(2) button {
   	z-index: 1;
 }
 
-button span {
+header nav ul{
+	
+
+	margin: 0;
+}
+
+button:nth-of-type(4) span {
 	display: block;
 
 	width: 1.5em;
@@ -72,46 +154,36 @@ button span {
 	transition: .25s;
 }
 
-button span:nth-of-type(1) {
+button:nth-of-type(4) span:nth-of-type(1) {
 	translate: 0 -.3em;
 }
 
-button span:nth-of-type(3) {
+button:nth-of-type(4) span:nth-of-type(3) {
 	translate: 0 .3em;
 }
 
-button.is-open span:nth-of-type(1) {
+button.kruisje span:nth-of-type(1) {
 	translate: 0 0;
 	rotate: 45deg;
 }
   
-button.is-open span:nth-of-type(2) {
+button.kruisje span:nth-of-type(2) {
 	scale: 0 1;
 }
   
-button.is-open span:nth-of-type(3) {
+button.kruisje span:nth-of-type(3) {
 	translate: 0 0;
 	rotate: -45deg;
 }
 
-nav:nth-of-type(2){
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-}
 
-nav:nth-of-type(2) ul{
-	position: fixed;
-	inset: 0;
 
-	translate: -100% 0;
-
-	transition: 1s;
-
-	background-color: var(--color-menu);
-}
-
-nav.is-open ul{
-	translate: 0 0;
+@media(width>48em){
+	header > a {
+		margin-left:auto;
+	}
+	
+	header button:nth-of-type(4){
+		order: -1;
+	}
 }

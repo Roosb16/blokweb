@@ -112,10 +112,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - headingsmap -> extention
+  - Hoeft maar 1 laag in de navigatie menu, niet nog een extra laag
+  - Margin en padding 0 in ul zodat de bovenste ruimte weg gaat
+  - Header is alleen het menu (nav), omdat deze altijd terug komt op iedere pagina
+  - Mapje fonts, op regel 1 in algemeen css. @font-face. Goede naam bij de font-family. Geen andere naam voor bold, onderschijd maken in de font-face doormiddel van font-weight.
+  - 1 animatie met Java Script buiten het hambruger menu om.
+  - Footer moet wel details met een summary gebruiken
+  - icons mag je zelf toevoegen, of na maken.
 
 </details>
 

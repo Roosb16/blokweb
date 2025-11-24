@@ -1,12 +1,12 @@
 // JavaScript Document
 console.log("hi");
 
-const menuButton = document.querySelector("header nav:nth-of-type(2) button");
-const deNav = document.querySelector("header nav:nth-of-type(2)");
+const menuButton = document.querySelector("header button:nth-of-type(4)");
+const deNav = document.querySelector("header nav");
 
 menuButton.onclick = toggleMenu;
 
 function toggleMenu(){
+    menuButton.classList.toggle("kruisje")
     deNav.classList.toggle("is-open")
-    menuButton.classList.toggle("is-open")
 }
