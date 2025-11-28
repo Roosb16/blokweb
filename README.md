@@ -147,22 +147,22 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  Eva:
+  |Eva:
     - hoe pas ik flexbox (of een grid) toe op een description list zonder divs te gebruiken?
     - is het legaal om een font van onlinewebfonts.com te downloaden en toe te voegen met @fontface?
     - kan ik beter een grid of flexbox gebruiken voor de layout van mijn sections?
     - wat is de beste tag voor een label?
 
-  Loïs:
+  |Loïs:
     - Als er een timer midden in de tekst staat, moet dit dan toegevoegd worden in html en zo ja hoe voeg je dit toe?
     - Kan je ook meerdere sections in een section hebben of dien je dan articles te gebruiken?
 
-  Roos:
+  |Roos:
     - hoe krijg ik een gradiant op mijn foto?
     - hoe spreek ik meerdere types aan zonder dit 2x het zelfde erin te moeten zetten met nth-of-type()
     - hoe krijg ik die pijltjes gestyld in de details/summary
 
-  Emilie:
+  |Emilie:
    - hoe krijg ik de puntjes bij mijn lijst weg?
     - Ik heb een div is dit div waardig?
     - Hoe zet ik de svg er goed in?
