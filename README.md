@@ -140,9 +140,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   Wat ging er goed:
+  Eigenlijk ging er heel veel goed, ik heb zo goed mogelijk geprobeerd mijn achterstand in te halen. Ik vind het ook leuk om te doen wat het makkelijk maakt. Het kijken in de verschillende sections en andere factoren is soms nog wat lastig omdat er geen divs gebruikt mogen worden, maar door veel te proberen gaat het goed en krijg ik een netjes resultaat. 
 
   Wat ging er minder goed:
-
+  Ik heb nog niet altijd door wat ik waarvoor kan gebruiken, betekent niet dat het niet goed gaat, alleen dat het meer tijd kost. Ook JavaScript is nog lang niet iets wat ik snap of heel goed in ben. Ik wil het wel allemaal proberen, maar of het 100% echt zo gaat lukken is nog maar de vraag. Ook heb ik het idee dat ik erg achterloop, maar dat blijf ik denk ik wel houden tot de tijd erop zit en het toch is gelukt.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
