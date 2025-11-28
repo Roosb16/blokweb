@@ -36,9 +36,12 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text: #262424;
+	--color-text-dark: #262424;
 	--color-background: #fff;
-	--color-menu: #000;
+	--color-menu: #262424;
+	--color-light: #F3F3F3;
+	--color-text: #707070;
+	--color-accent: #7F4C3B;
 }
 
 
@@ -53,8 +56,8 @@
 
 body{
 	font-family: "fann";
+	margin: 0;
 }
-
 
 li {
 	list-style: none;
@@ -67,10 +70,6 @@ a{
 img{
 	width: 100%;
 }
-
-
-
-
 
 
 
@@ -87,10 +86,29 @@ header{
 	top: 0;
 
 	z-index: 10;
+
+	background-color: var(--color-background);
+
+	padding: 1em 1em;
 }
 
-/* LOGO */
+/* header buttons/images */
+header button img{
+	width: 2em;
+}
 
+header button{
+	width: 2.5em;
+	aspect-ratio: 1/1;
+
+	border: none;
+	padding: 0;
+
+	background-color: var(--color-background);
+}
+
+
+/* LOGO */
 header > a {
 	margin-right:auto;
 }
@@ -100,22 +118,67 @@ header > a {
 /* Hamburger menu */
 /******************/
 header nav{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+
 	position: fixed;
 	inset: 0;
 
 	background-color: var(--color-menu);
+	backdrop-filter: blur(1em);
 
 	translate: 0 100%;
 	
-	transition: 1s;
+	transition: .5s ease;
+
+	padding: 0;
+	margin: 0;
 
 	&.is-open {
 		translate: 0 0;
 	}
 }
 
-header nav img{
+header nav li a{
+	color: var(--color-light);
+
+	font-size: 1.1em;
+	font-weight: 400;
+}
+
+header nav img{	
+	color: var(--color-light);
+
 	width: 3em;
+}
+
+header nav ul{
+	border-bottom: .1rem var(--color-light) solid;
+	border-top: .1rem var(--color-light) solid;
+
+	padding: 1.5rem 0;
+	margin: 0 1.5rem;
+}
+
+header nav ul:nth-of-type(1){
+	border: none;
+
+	padding-left: 1.5rem;
+	margin: 3rem 0 5rem 0;
+}
+
+header nav ul:nth-of-type(3){
+	border: none;
+
+	padding-left: 1.5rem;
+	margin: 3rem 0 1rem 0;
+
+	font-size: 0.7em;
+}
+
+header nav li{
+	padding: .6rem 0;
 }
 
 header button:nth-of-type(4) {
@@ -135,12 +198,6 @@ header button:nth-of-type(4) {
   	z-index: 1;
 }
 
-header nav ul{
-	
-
-	margin: 0;
-}
-
 button:nth-of-type(4) span {
 	display: block;
 
@@ -155,11 +212,11 @@ button:nth-of-type(4) span {
 }
 
 button:nth-of-type(4) span:nth-of-type(1) {
-	translate: 0 -.3em;
+	translate: 0 -.4em;
 }
 
 button:nth-of-type(4) span:nth-of-type(3) {
-	translate: 0 .3em;
+	translate: 0 .4em;
 }
 
 button.kruisje span:nth-of-type(1) {
@@ -186,4 +243,52 @@ button.kruisje span:nth-of-type(3) {
 	header button:nth-of-type(4){
 		order: -1;
 	}
+
+	header nav{
+		translate: -100% 0;
+
+		top: 0;
+		right: 65%;
+		bottom: 0;
+		left: 0;
+	}
+}
+
+/**********/
+/* footer */
+/**********/
+footer{
+	background-color: var(--color-menu);
+	color: var(--color-light);
+}
+
+footer nav ul{
+	padding: 0 1em;
+}
+
+footer a{
+	color: var(--color-light);
+	font-weight: 400;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+footer details{
+	border-bottom: .08rem solid;
+	padding: 1rem .5rem;
+	margin: .5em 1em;
+}
+
+footer details summary{
+	font-weight: 500;
+}
+
+footer details ul{
+	margin: 0 -2em;
+}
+
+footer details li{
+	padding: .1em 0;
 }
