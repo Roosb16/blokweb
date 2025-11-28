@@ -101,12 +101,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  Eva:
 
-  | Eva            | Loïs               | Roos                                         | Emilie                                                                                    |
-  | ---            | ---                | ---                                          | ---                                                                                       |
-  | dit bespreken  | en dit             | Hoe kan ik in mijn menu nog een menu maken?  | Tot hoever moet de website in detail uitgewerkt worden?                                   |
-  | en dat ook nog | dit als er tijd is | Wat valt er onder de header?                 | Waarom speelt de video niet af en hoe kan ik zorgen dat ie niet automatisch gaat afspelen |
-  | ...            | ...                | Hoe vind ik de iconen?                       | Hoe zet ik de font in mijn css?                                                           |
+  Loïs:
+
+  Roos:
+    - Hoe kan ik in mijn menu nog een menu maken?
+    - Wat valt er onder de header?
+    - Hoe vind ik de iconen?
+
+  Emilie:
+    - Tot hoever moet de website in detail uitgewerkt worden?
+    - Waarom speelt de video niet af en hoe kan ik zorgen dat ie niet automatisch gaat afspelen
+    -Hoe zet ik de font in mijn css?
 
 
   ### Verslag van meeting
@@ -133,26 +140,37 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Wat ging er goed:
+
+  Wat ging er minder goed:
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+  Eva:
+    - hoe pas ik flexbox (of een grid) toe op een description list zonder divs te gebruiken?
+    - is het legaal om een font van onlinewebfonts.com te downloaden en toe te voegen met @fontface?
+    - kan ik beter een grid of flexbox gebruiken voor de layout van mijn sections?
+    - wat is de beste tag voor een label?
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Loïs:
+    - Als er een timer midden in de tekst staat, moet dit dan toegevoegd worden in html en zo ja hoe voeg je dit toe?
+    - Kan je ook meerdere sections in een section hebben of dien je dan articles te gebruiken?
+
+  Roos:
+    - hoe krijg ik een gradiant op mijn foto?
+    - hoe spreek ik meerdere types aan zonder dit 2x het zelfde erin te moeten zetten met nth-of-type()
+    - hoe krijg ik die pijltjes gestyld in de details/summary
+
+  Emilie:
+   - hoe krijg ik de puntjes bij mijn lijst weg?
+    - Ik heb een div is dit div waardig?
+    - Hoe zet ik de svg er goed in?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+    -
 
 </details>
 

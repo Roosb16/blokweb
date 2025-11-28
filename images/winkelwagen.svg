@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Laag_2" data-name="Laag 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <circle cx="38.87" cy="93.72" r="7.42"/>
+  <circle cx="86.61" cy="93.72" r="7.42"/>
+  <polyline class="cls-1" points="94.03 77.45 34.59 77.45 42.37 57.47 89.66 57.47 101.91 26.28 34.59 26.28"/>
+  <polyline class="cls-1" points="18.09 18.85 32.74 18.85 42.37 57.47"/>
+</svg>
