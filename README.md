@@ -101,16 +101,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
-  Eva:
+  #### Eva:
 
-  Loïs:
+  #### Loïs:
 
-  Roos:
+  #### Roos:
     - Hoe kan ik in mijn menu nog een menu maken?
     - Wat valt er onder de header?
     - Hoe vind ik de iconen?
 
-  Emilie:
+  #### Emilie:
     - Tot hoever moet de website in detail uitgewerkt worden?
     - Waarom speelt de video niet af en hoe kan ik zorgen dat ie niet automatisch gaat afspelen
     -Hoe zet ik de font in mijn css?
@@ -118,7 +118,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
   - headingsmap -> extention
   - Hoeft maar 1 laag in de navigatie menu, niet nog een extra laag
   - Margin en padding 0 in ul zodat de bovenste ruimte weg gaat
