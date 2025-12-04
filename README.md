@@ -148,29 +148,30 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
   #### Eva:
-    - hoe pas ik flexbox (of een grid) toe op een description list zonder divs te gebruiken?
-    - is het legaal om een font van onlinewebfonts.com te downloaden en toe te voegen met @fontface?
-    - kan ik beter een grid of flexbox gebruiken voor de layout van mijn sections?
-    - wat is de beste tag voor een label?
+    - Hoe pas ik flexbox (of een grid) toe op een description list zonder divs te gebruiken?
+    - Is het legaal om een font van onlinewebfonts.com te downloaden en toe te voegen met @fontface?
+    - Kan ik beter een grid of flexbox gebruiken voor de layout van mijn sections?
+    - Wat is de beste tag voor een label?
 
   #### Loïs:
     - Als er een timer midden in de tekst staat, moet dit dan toegevoegd worden in html en zo ja hoe voeg je dit toe?
     - Kan je ook meerdere sections in een section hebben of dien je dan articles te gebruiken?
 
   #### Roos:
-    - hoe krijg ik een gradiant op mijn foto?
-    - hoe spreek ik meerdere types aan zonder dit 2x het zelfde erin te moeten zetten met nth-of-type()
-    - hoe krijg ik die pijltjes gestyld in de details/summary
+    - Hoe krijg ik een gradiant op mijn foto?
+    - Hoe spreek ik meerdere types aan zonder dit 2x het zelfde erin te moeten zetten met nth-of-type()
+    - Hoe krijg ik die pijltjes gestyld in de details/summary
 
   #### Emilie:
-    - hoe krijg ik de puntjes bij mijn lijst weg?
+    - Hoe krijg ik de puntjes bij mijn lijst weg?
     - Ik heb een div is dit div waardig?
     - Hoe zet ik de svg er goed in?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-    -
+  - Font ook in een property zetten, net als spacing
+  - 
 
 </details>
 
@@ -203,12 +204,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Agenda voor meeting
   samen met je groepje opstellen
+#### Eva:
+    - 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  #### Loïs:
+    - 
+
+  #### Roos:
+    - Waarom tabt ie ook de linkjes in het gesloten menu?
+
+  #### Emilie:
+    - 
+  
 
 
   ### Verslag van meeting
@@ -259,7 +266,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. [bron 1](https://www.a11yproject.com/posts/how-to-hide-content/)
+  1. bron 1
   2. bron 2
   3. ...
 
