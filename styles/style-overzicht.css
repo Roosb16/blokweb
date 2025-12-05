@@ -6,7 +6,7 @@
 main section:nth-of-type(1){
 	display: grid;
 	grid-template-columns: 50% 50%;
-	gap: 0.3em;
+	gap: var(--small);
 }
 
 main section h1,p{
@@ -17,7 +17,7 @@ main section h1,p{
 main section:nth-of-type(1) article{
 	display: grid;
 
-	margin-bottom: .3rem;
+	margin-bottom: var(--small);
 }
 
 main article ul {
@@ -29,20 +29,20 @@ main article ul {
 	scroll-behavior: smooth;
 
 	overscroll-behavior-x: contain;
-	gap: .5em;
+	gap: var(--medium);
 	
 	scrollbar-width: thin;
 	scrollbar-color: gray transparent;
 
-	padding: 0;
-	margin: 0;
+	padding: var(--none);
+	margin: var(--none);
 
 	order: -1;
 }
   
 main li {
 	flex-basis:100%;
-	flex-shrink: 0;
+	flex-shrink: var(--none);
 
 	scroll-snap-align: center;	
 }
@@ -50,46 +50,57 @@ main li {
 main a article h2{
 	position: relative;
 
-	font-size: 1em;
-	font-weight: 400;
+	font-size: var(--font-small);
+	font-weight: var(--regular-fann);
 
 	color: var(--color-text-dark);
 	
 	padding-top: .7rem;
-	margin: 0 .3rem;
+	margin: 0 var(--small);
 }
 
 main article p{
-	font-size: .75em;
+	font-size: var(--font-extra-small);
 
 	color: var(--color-text-dark);
 	
-	margin: .1rem .5rem;
+	margin: var(--extra-small-rondom);
 }
 
 main article p:nth-of-type(1){
 	color: var(--color-text);
 }
 
-main article{
-	position: relative;
+main section > article{
+	display: grid;
 }
 
-main article h2{
-	position: absolute;
-	bottom: .5rem;
+main section > article::after{
+	content:"";
+	grid-area:1/1;
 
-	font-size: 2em;
-	font-weight: 600;
+	background-image:linear-gradient(transparent, #0009);
+}
+
+main section > article h2{
+	grid-area: 1/1;
+
+	align-self: end;
+
+	z-index: 1;
+
+	font-size: var(--font-large);
+	font-weight: var(--bold-fann);
 
 	color: var(--color-light);
 
-	margin: 0 .3rem;
+	margin: var(--small);
 }
 
-main article img{
-	padding: 0;
-	margin: 0;
-
-	height: 100%;
+main section > article img{
+	height:100%;
+	
+	grid-area:1/1;
+	
+	display:block;
 }

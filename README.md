@@ -201,20 +201,31 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  Wat goed gaat:
+  Ik ben nu bezig met het afronden van de styling wat erg goed gaat
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 #### Eva:
-    - 
+    - Wat is de beste plek voor mijn custom properties?
+    - Heb ik de <table> correct gemaakt?
+    - hoe hou ik een grid item vierkant op hele smalle schermen?
 
   #### Loïs:
-    - 
+    - Hoe ik mijn nav elementen over mijn header img krijg, of dat ik het op dezelfde grid lijn dien te zetten of dit met position absolute kan fixen?
+    - Hoe bewerk ik verschillende svg's in de nav apart van elkaar? nth of type lukt even niet
 
   #### Roos:
     - Waarom tabt ie ook de linkjes in het gesloten menu?
+    - Hoezo zit hier witruimte en hoe krijg ik die weg?
+    - Valt het hamburgermenu en automatische carousel onder de 5 elementen van surface plane?
+    - mag je padding gebruiken?
 
   #### Emilie:
-    - 
+    - Ook een witruimte die ik niet weg krijg
+    - Achtergrond kleur bij de nav icoon krijg ik niet weg
+    - Hoe krijg ik het middelste svg met meer ruimste tussen de andere nav elementen?
   
 
 

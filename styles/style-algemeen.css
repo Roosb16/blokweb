@@ -35,28 +35,84 @@
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text-dark: #262424;
-	--color-background: #fff;
-	--color-menu: #262424;
-	--color-light: #F3F3F3;
-	--color-text: #707070;
-	--color-accent: #7F4C3B;
+	color-scheme: light dark;
+	/* kleuren */
+	--color-text-dark: light-dark(#262424, #fff);
+	--color-background: light-dark(#fff, #262424);
+	--color-menu: rgb(0 0 0 / 80%);
+	--color-light: light-dark(#F3F3F3, #fff);
+	--color-text: light-dark(#707070, #AFAFAF);
+	--color-accent: light-dark(#7F4C3B, #F39879);
+
+	/* font-weight */
+	--regular-fann: 400;
+	--medium-fann: 500;
+	--bold-fann: 700;
+
+	/* font-size */
+	--font-extra-small: .75em;
+	--font-small: 1em;
+	--font-medium: 1.2em;
+	--font-large: 2em;
+
+	/* margin/padding */
+	--none: 0;
+	--small: .3rem;
+	--medium: .5rem;
+	--large: .8rem;
+	--extra-large: 1rem;
+	--extra-small-rondom: .1rem .3rem;
+	--small-rondom: .3rem .5rem; 
 }
 
+/*********/
+/* CLASS */
+/*********/
 
+/* class voor headings verbergen, maar niet voor screenreader*/
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
 
+/**********/
+/* STATES */
+/**********/
+a:focus-visible{
+	border: .2rem var(--color-accent) solid;
+	padding: .2rem;
 
+	text-decoration: underline dashed;
+}
+
+button:focus-visible{
+	border: .2rem var(--color-accent) solid;
+	padding: .2rem;
+
+	background-color: var(--color-text);
+	fill: var(--color-background);
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+/* Algemeene styling */
 
 body{
 	font-family: "fann";
-	margin: 0;
+	margin: var(--none);
+	padding: var(--none);
+
+	box-sizing: border-box;
+
+	background-color: var(--color-background);
 }
 
 li {
@@ -71,6 +127,9 @@ img{
 	width: 100%;
 }
 
+header svg{
+	fill: var(--color-text-dark);
+}
 
 
 /********/
@@ -78,8 +137,8 @@ img{
 /********/
 header{
 	display: flex;
-	/* justify-content: space-between; */
-	gap:.5em;
+
+	gap: var(--medium);
 	align-items: center;
 
 	position: sticky;
@@ -89,7 +148,7 @@ header{
 
 	background-color: var(--color-background);
 
-	padding: 1em 1em;
+	padding: var(--extra-large);
 }
 
 /* header buttons/images */
@@ -102,13 +161,14 @@ header button{
 	aspect-ratio: 1/1;
 
 	border: none;
-	padding: 0;
+	padding: var(--none);
 
 	background-color: var(--color-background);
 }
 
-
+/********/
 /* LOGO */
+/********/
 header > a {
 	margin-right:auto;
 }
@@ -126,14 +186,14 @@ header nav{
 	inset: 0;
 
 	background-color: var(--color-menu);
-	backdrop-filter: blur(1em);
+	backdrop-filter: blur(.4rem);
 
 	translate: 0 100%;
 	
 	transition: .5s ease;
 
-	padding: 0;
-	margin: 0;
+	padding: var(--none);
+	margin: var(--none);
 
 	&.is-open {
 		translate: 0 0;
@@ -144,7 +204,17 @@ header nav li a{
 	color: var(--color-light);
 
 	font-size: 1.1em;
-	font-weight: 400;
+	font-weight: var(--regular-fann);
+}
+
+header nav li a:hover{
+	text-decoration: underline;
+}
+
+header nav svg{
+	height: 1.5rem;
+	
+	fill: var(--color-light);
 }
 
 header nav img{	
@@ -157,7 +227,7 @@ header nav ul{
 	border-bottom: .1rem var(--color-light) solid;
 	border-top: .1rem var(--color-light) solid;
 
-	padding: 1.5rem 0;
+	padding: .5rem 0;
 	margin: 0 1.5rem;
 }
 
@@ -174,11 +244,11 @@ header nav ul:nth-of-type(3){
 	padding-left: 1.5rem;
 	margin: 3rem 0 1rem 0;
 
-	font-size: 0.7em;
+	font-size: var(--font-extra-small);
 }
 
 header nav li{
-	padding: .6rem 0;
+	padding: .5rem 0;
 }
 
 header button:nth-of-type(4) {
@@ -188,7 +258,7 @@ header button:nth-of-type(4) {
 	aspect-ratio: 1/1;
 
 	border: none;
-	padding: 0;
+	padding: var(--none);
 	
 	display: grid;
 	justify-items: center;
@@ -203,7 +273,7 @@ button:nth-of-type(4) span {
 
 	width: 1.5em;
 	height: .1em;
-	background-color: black;
+	background-color: var(--color-text-dark);
 
 	grid-row-start: 1;
 	grid-column-start: 1;
@@ -233,8 +303,9 @@ button.kruisje span:nth-of-type(3) {
 	rotate: -45deg;
 }
 
-
-
+/**********************/
+/*SCHALEN VAN HET MENU*/
+/**********************/
 @media(width>48em){
 	header > a {
 		margin-left:auto;
@@ -255,20 +326,48 @@ button.kruisje span:nth-of-type(3) {
 }
 
 /**********/
-/* footer */
+/* FOOTER */
 /**********/
 footer{
 	background-color: var(--color-menu);
 	color: var(--color-light);
+
+	padding: var(--none);
+	margin: var(--none);
 }
 
 footer nav ul{
-	padding: 0 1em;
+	padding: 1.5rem;
+	margin: var(--none);
+}
+
+footer nav > a{
+	margin-left: 1.5rem;
+}
+
+footer nav > ul:nth-of-type(1){
+	display: flex;
+	padding-bottom: 0;
+}
+
+footer nav ul:nth-of-type(1) a{
+	padding: .5rem;
+}
+
+footer nav ul:nth-of-type(1) li{
+	margin: 1rem 0;
+}
+
+footer nav ul:nth-of-type(2) li{
+	padding: .2rem 0;
+
+	font-size: .75rem;
+	text-decoration: underline;
 }
 
 footer a{
 	color: var(--color-light);
-	font-weight: 400;
+	font-weight: var(--regular-fann);
 }
 
 footer a:hover{
@@ -282,13 +381,52 @@ footer details{
 }
 
 footer details summary{
-	font-weight: 500;
+	font-weight: var(--medium-fann);
 }
 
 footer details ul{
-	margin: 0 -2em;
+	margin: 0 -1.5em;
 }
 
 footer details li{
-	padding: .1em 0;
+	padding: .15rem 0;
+
+	text-decoration: underline;
+}
+
+footer details a:hover{
+	text-decoration-color: var(--color-accent);
+	text-decoration-style: solid;
+}
+
+/* details en summery */
+/* Hulp uit een voorbeeld van Sanne, https://codepen.io/Roosb16/pen/GgZXbdJ */
+details summary::marker {
+	content: ''; /* verbergen voor chrome en edge*/
+	/* verbergen voor safari nog doen */
+}
+  
+details summary::-webkit-details-marker {
+	display:none;
+}
+
+summary {
+	display:flex;
+	justify-content: space-between;
+
+	padding: var(--medium);
+}
+
+summary::after {
+	content:">";
+	
+	rotate: 90deg;
+	transition: .5s;
+	
+	font-size: 1.5rem;
+	line-height: var(--extra-large);
+}
+
+details[open] summary::after {
+	rotate:270deg;
 }
